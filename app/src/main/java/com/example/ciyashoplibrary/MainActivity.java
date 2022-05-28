@@ -5,9 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.ciya.library.onesignal.OneSignalClass;
-import com.ciya.library.onesignal.OneSignalValidator;
-
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     @Override
@@ -16,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        String id = "e06e3871-0f4e-444f-a85e-61a4a57bacb3";
+       /* String id = "e06e3871-0f4e-444f-a85e-61a4a57bacb3";
 
         try {
 
@@ -30,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             }
         } catch (Exception e) {
             Log.e(TAG, "onCreate: " + e.getMessage());
-        }
+        }*/
 
     }
 }
